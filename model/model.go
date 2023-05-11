@@ -30,3 +30,5 @@ type Translation struct {
 	UserID    string `json:"userID"`
 	Uuid      string `json:"uuid"`
 }
+
+const DateTimeFormat = "20060102_150405.00000"
